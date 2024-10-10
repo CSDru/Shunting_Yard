@@ -6,5 +6,6 @@
 #define LINKED_LIST_TEST_H
 
 void runLinkedListTests();
+void runShuntingYardTests();
 
 #endif //LINKED_LIST_TEST_H

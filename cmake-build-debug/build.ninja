@@ -51,43 +51,49 @@ build cmake_object_order_depends_target_Shunting_Yard: phony || CMakeFiles/Shunt
 
 build CMakeFiles/Shunting_Yard.dir/main.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/main.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
 build CMakeFiles/Shunting_Yard.dir/LinkedList.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/LinkedList.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\LinkedList.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
 build CMakeFiles/Shunting_Yard.dir/Test.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/Test.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\Test.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
 build CMakeFiles/Shunting_Yard.dir/Stack.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/Stack.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\Stack.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
 build CMakeFiles/Shunting_Yard.dir/Queue.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/Queue.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\Queue.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
 build CMakeFiles/Shunting_Yard.dir/Iterator.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/Iterator.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\Iterator.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
 build CMakeFiles/Shunting_Yard.dir/RPN.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/RPN.cpp || cmake_object_order_depends_target_Shunting_Yard
   DEP_FILE = CMakeFiles\Shunting_Yard.dir\RPN.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
+  OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
+
+build CMakeFiles/Shunting_Yard.dir/ShuntingYard.cpp.obj: CXX_COMPILER__Shunting_Yard_Debug C$:/Users/Dru/CLionProjects/Shunting_Yard/ShuntingYard.cpp || cmake_object_order_depends_target_Shunting_Yard
+  DEP_FILE = CMakeFiles\Shunting_Yard.dir\ShuntingYard.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir
   OBJECT_FILE_DIR = CMakeFiles\Shunting_Yard.dir
 
@@ -99,7 +105,7 @@ build CMakeFiles/Shunting_Yard.dir/RPN.cpp.obj: CXX_COMPILER__Shunting_Yard_Debu
 #############################################
 # Link the executable Shunting_Yard.exe
 
-build Shunting_Yard.exe: CXX_EXECUTABLE_LINKER__Shunting_Yard_Debug CMakeFiles/Shunting_Yard.dir/main.cpp.obj CMakeFiles/Shunting_Yard.dir/LinkedList.cpp.obj CMakeFiles/Shunting_Yard.dir/Test.cpp.obj CMakeFiles/Shunting_Yard.dir/Stack.cpp.obj CMakeFiles/Shunting_Yard.dir/Queue.cpp.obj CMakeFiles/Shunting_Yard.dir/Iterator.cpp.obj CMakeFiles/Shunting_Yard.dir/RPN.cpp.obj
+build Shunting_Yard.exe: CXX_EXECUTABLE_LINKER__Shunting_Yard_Debug CMakeFiles/Shunting_Yard.dir/main.cpp.obj CMakeFiles/Shunting_Yard.dir/LinkedList.cpp.obj CMakeFiles/Shunting_Yard.dir/Test.cpp.obj CMakeFiles/Shunting_Yard.dir/Stack.cpp.obj CMakeFiles/Shunting_Yard.dir/Queue.cpp.obj CMakeFiles/Shunting_Yard.dir/Iterator.cpp.obj CMakeFiles/Shunting_Yard.dir/RPN.cpp.obj CMakeFiles/Shunting_Yard.dir/ShuntingYard.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Shunting_Yard.dir

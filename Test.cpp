@@ -1,4 +1,6 @@
 #include "LinkedList.h"
+#include "Test.h"
+#include "ShuntingYard.h"
 #include <iostream>
 #include <stdexcept>
 
@@ -65,3 +67,35 @@ void runLinkedListTests()
     std::cout << "List: " << list << std::endl;
 }
 
+void runShuntingYardTests() {
+    ShuntingYard shuntingYard;
+
+    try {
+        std::string expression1 = "3 + 4 * 2 / ( 1 - 5 )";
+        std::cout << "Infix: " << expression1 << std::endl;
+        std::cout << "Postfix: " << shuntingYard.infixToPostfix(expression1) << std::endl;
+
+        std::string expression2 = "( 1 + 2 ) * 3";
+        std::cout << "Infix: " << expression2 << std::endl;
+        std::cout << "Postfix: " << shuntingYard.infixToPostfix(expression2) << std::endl;
+
+        std::string expression3 = "10 + 2 * 6";
+        std::cout << "Infix: " << expression3 << std::endl;
+        std::cout << "Postfix: " << shuntingYard.infixToPostfix(expression3) << std::endl;
+
+        std::string expression4 = "100 * 2 + 12";
+        std::cout << "Infix: " << expression4 << std::endl;
+        std::cout << "Postfix: " << shuntingYard.infixToPostfix(expression4) << std::endl;
+
+        std::string expression5 = "100 * ( 2 + 12 )";
+        std::cout << "Infix: " << expression5 << std::endl;
+        std::cout << "Postfix: " << shuntingYard.infixToPostfix(expression5) << std::endl;
+
+        std::string expression6 = "100 * ( 2 + 12 ) / 14";
+        std::cout << "Infix: " << expression6 << std::endl;
+        std::cout << "Postfix: " << shuntingYard.infixToPostfix(expression6) << std::endl;
+
+    } catch (const std::runtime_error& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    }
+}
